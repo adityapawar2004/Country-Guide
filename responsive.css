@@ -1,0 +1,138 @@
+@media (max-width:500px) {
+    .card {
+        width: 80%;
+        height: 70%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        position: absolute;
+        border-radius: 59px;
+        background: #429475;
+        box-shadow: inset 31px -31px 23px #78d6b2,
+            inset -31px 31px 23px #78d6b2;
+    }
+
+    #country-name {
+
+        width: 50%;
+        text-align: center;
+        border: none;
+        border-bottom: 4px black solid;
+        font-size: 20px;
+        text-decoration: none;
+        height: 50px;
+    }
+
+    #search-button {
+        height: 50px;
+        width: 80px;
+        border-radius: 15px;
+        background-color: #eab13f;
+        color: rgba(0, 0, 0, 0.914);
+        border: 2px rgba(198, 184, 36, 0.823) solid;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .card .flag-image {
+        width: 30%;
+        margin-left: 35%;
+        margin-top: -7%;
+        display: block;
+    }
+
+    .details {
+        margin-left: 2%;
+        margin-top: 3%;
+        font-size: 9.5px;
+
+
+        font-family: 'Kanit', sans-serif;
+    }
+
+
+
+}
+
+
+@media (max-width:950px) and (min-width:501px) {
+    .card {
+        width: 80%;
+        height: 60%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        position: absolute;
+        border-radius: 59px;
+        background: #429475;
+        box-shadow: inset 31px -31px 23px #8d8a8a,
+            inset -31px 31px 23px #78d6b2;
+
+    }
+
+    .details {
+        margin-left: 2%;
+        margin-top: 3%;
+        font-size: 20px;
+
+
+        font-family: 'Kanit', sans-serif;
+    }
+
+}
+
+@media (height:720px) {
+    .card {
+        width: 80%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        position: absolute;
+        border-radius: 59px;
+        background: #429475;
+        box-shadow: inset 31px -31px 23px #8d8a8a,
+            inset -31px 31px 23px #78d6b2;
+
+    }
+
+    .details {
+        margin-left: 2%;
+        margin-top: 3%;
+        font-size: 13px;
+
+
+        font-family: 'Kanit', sans-serif;
+    }
+
+}
+
+@media (width:280px) {
+    .card {
+        width: 90%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        position: absolute;
+        border-radius: 59px;
+        background: #429475;
+        box-shadow: inset 31px -31px 23px #8d8a8a,
+            inset -31px 31px 23px #78d6b2;
+
+    }
+
+    .details {
+        margin-left: 2%;
+        margin-top: 3%;
+        font-size: 8px;
+
+
+        font-family: 'Kanit', sans-serif;
+    }
+
+}

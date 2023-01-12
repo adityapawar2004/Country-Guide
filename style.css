@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #000000;
+}
+
+.card {
+
+    width: 50%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+    border-radius: 59px;
+    background: #429475;
+    box-shadow: inset 31px -31px 23px #777777,
+        inset -31px 31px 23px #86debd;
+
+
+
+
+
+
+}
+
+
+#country-name {
+    height: 30%;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-bottom: 4px black solid;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+.search-section input {
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    font-family: 'Teko', sans-serif;
+    border-bottom: 4px black solid;
+}
+
+#search-button {
+    height: 25%;
+    width: 20%;
+    border-radius: 15px;
+    background-color: #fff0f0;
+    color: rgba(0, 0, 0, 0.914);
+    border: 2px rgba(198, 184, 36, 0.823) solid;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    gap: 20px;
+    height: 40%;
+    width: 100%;
+}
+
+
+.card .flag-image {
+    width: 12%;
+    margin-left: 43%;
+    margin-top: -7%;
+    display: block;
+}
+
+.card .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.card .details .data-details {
+    display: flex;
+    gap: 0.3em;
+}
+
+.details {
+    margin-left: 10%;
+    margin-top: 3%;
+    font-size: 13px;
+
+    font-family: 'Kanit', sans-serif;
+}
+
+.card .details .data-details span {
+    color: rgba(255, 255, 255, 0.938);
+    font-weight: 700;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Teko', sans-serif;
+
+}
+
+.card h4 {
+    text-align: center;
+    font-size: 30px;
+
+}
