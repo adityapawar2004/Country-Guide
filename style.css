@@ -9,38 +9,29 @@ body {
 }
 
 .card {
-
     width: 50%;
-    height: 70%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    padding: 10px;
+    
     position: absolute;
     border-radius: 59px;
     background: #429475;
-    box-shadow: inset 31px -31px 23px #777777,
-        inset -31px 31px 23px #86debd;
-
-
-
-
-
-
+    box-shadow: inset 31px -31px 23px #1bffdd,
+        inset -31px 31px 23px #38e9a8;
+}
+#result{
+    margin-top: 25px;
 }
 
-
 #country-name {
-    height: 30%;
-    width: 50%;
     text-align: center;
     border: none;
     border-bottom: 4px black solid;
     font-size: 20px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-
-
 
 }
 
@@ -53,10 +44,10 @@ body {
 }
 
 #search-button {
-    height: 25%;
+   
     width: 20%;
     border-radius: 15px;
-    background-color: #fff0f0;
+    background-color: #fffef0;
     color: rgba(0, 0, 0, 0.914);
     border: 2px rgba(198, 184, 36, 0.823) solid;
     font-size: 20px;
@@ -69,15 +60,14 @@ body {
     align-items: center;
     border: none;
     gap: 20px;
-    height: 40%;
-    width: 100%;
+    margin-top: 10px;
+    
 }
 
 
 .card .flag-image {
     width: 12%;
     margin-left: 43%;
-    margin-top: -7%;
     display: block;
 }
 
@@ -94,7 +84,7 @@ body {
 .details {
     margin-left: 10%;
     margin-top: 3%;
-    font-size: 16px;
+    font-size: 13px;
 
     font-family: 'Kanit', sans-serif;
 }
