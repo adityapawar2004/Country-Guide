@@ -1,0 +1,101 @@
+@media (max-width:500px) {
+    .card {
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        position: absolute;
+        border-radius: 40px;
+        background-image: url('cardbg.gif');
+      background-size: cover;
+      background-position: 50%;
+    }
+
+    #country-name {
+
+        width: 50%;
+        text-align: center;
+        border: none;
+        border-bottom: 4px black solid;
+        font-size: 16px;
+        text-decoration: none;
+        
+    }
+
+    #search-button {
+        
+        width: 80px;
+        border-radius: 15px;
+        background-color: #f3f1ee;
+        color: rgba(0, 0, 0, 0.914);
+        border: 2px rgba(198, 184, 36, 0.823) solid;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .card .flag-image {
+        width: 20%;
+        margin-left: 40%;
+        display: block;
+    }
+
+    .details {
+        margin-left: 15%;
+        margin-top: 3%;
+        font-size: 12px;
+
+
+        font-family: 'Kanit', sans-serif;
+    }
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 1%;
+        margin-left: 1%;
+        color: #ffffff;
+    
+        font-size: 25px;
+        font-weight:200;
+        font-family: 'Teko', sans-serif;
+        
+    }
+
+
+}
+
+
+@media (max-width:950px) and (min-width:501px) {
+    .card {
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        position: absolute;
+        border-radius: 59px;
+     background-image: url('cardbg.gif');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+
+    .details {
+        margin-left: 8%;
+        margin-top: 3%;
+        font-size: 20px;
+
+
+        font-family: 'Kanit', sans-serif;
+    }
+    .card .flag-image {
+        width: 12%;
+        margin-left: 45%;
+        display: block;
+    }
+}
+
+
+
+
+
